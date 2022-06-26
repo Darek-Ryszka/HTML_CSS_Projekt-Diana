@@ -13,7 +13,7 @@
 	--secound-bg-color: #191919;
 	--text-color: #fff;
 	--secound-color: #c6c9d8bf;
-	--main-color: #aa23cc;
+	--main-color: #9C27B0;
 	--big-font: 5.3rem;
 	--h2-font: 4.2rem;
 	--p-font: 1.1rem;
@@ -67,7 +67,7 @@ header {
 	height: 2px;
 	background: var(--main-color);
 	/* left: 0; */
-	left: 20px;
+	left: 20px; /*Do zmiany*/
 	bottom: -4px;
 	transition: ease 0.4s;
 }
@@ -101,4 +101,20 @@ header {
 
 .h-btn:hover{
 	transform: translateY(-10px);
+}
+
+section{
+	padding: 120px 15%;
+}
+
+.home{
+	height: 100vh;
+	width: 100%;
+	background: url(images/background-big.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center;
 }
