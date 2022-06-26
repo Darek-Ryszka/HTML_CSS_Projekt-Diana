@@ -48,3 +48,29 @@ header {
 .navbar {
 	display: flex;
 }
+
+.navbar li {
+	position: relative;
+}
+
+.navbar a {
+	color: var(--text-color);
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 10px 20px;
+}
+
+.navbar a::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 2px;
+	background: var(--main-color);
+	left: 0;
+	bottom: -4px;
+	transition: ease 0.40s;
+}
+
+.navbar a:hover::after {
+	width: 100%;
+}
