@@ -117,7 +117,7 @@ span {
 	margin-bottom: 55px;
 }
 .home-text h4 {
-	color: #585c63;
+	color: var(--text-color); /*Do zmiany*/
 	font-size: 20px;
 	letter-spacing: 2px;
 }
