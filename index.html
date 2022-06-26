@@ -1,101 +1,58 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona Diany</title>
-    <link href="style.css" type="text/css" rel="stylesheet"/>
-</head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="html, css, gallery, portfolio, manga">
+        <meta name="author" content="Dariusz Ryszka">
+        <title>Portfolio Diana</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    </head>
+
     <body>
-        <div class="container1">
-                <div class="O-mnie">
-                    <h1 id="h1">O mnie</h1> 
-                    <p class="tekst">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim urna in facilisis vehicula. Cras tincidunt, arcu sed consequat porta, libero orci feugiat libero, id scelerisque sem magna et dui. Nunc commodo tristique tellus ac placerat. Curabitur in enim a ligula mollis aliquet. In vel volutpat nunc. Nullam porttitor odio nec gravida hendrerit. Nunc rutrum tristique condimentum. Cras a nisi nec mi mollis tincidunt. Sed feugiat neque mi, hendrerit elementum risus auctor eget. Nullam vitae lectus eu nulla dictum viverra id ac nulla. Fusce risus turpis, laoreet vel lacinia a, iaculis nec sem. 
-                    </p>
-                    <p class="tekst">
-                        Sed fermentum, ligula eu elementum pulvinar, orci justo iaculis ipsum, nec venenatis ipsum orci nec dolor. Donec non tempor velit. Vivamus sed diam vel leo euismod scelerisque eu lobortis tortor. Donec ullamcorper vitae orci vel sodales. Nulla aliquet sodales rhoncus. Morbi elementum elit vitae odio finibus vehicula. Etiam elit libero, viverra accumsan porttitor aliquet, hendrerit vel augue. In varius ex ornare augue tempor aliquam sed ut turpis. Etiam ac neque condimentum, posuere quam in, pulvinar urna.
-                    </p>
-                    <p class="tekst">
-                        Donec suscipit, tortor non iaculis faucibus, est tellus scelerisque ligula, ut consectetur felis ante non nibh. Vivamus vitae neque sit amet ipsum finibus efficitur id eget sapien. Curabitur nec nulla felis. Sed elementum, turpis at consequat bibendum, quam velit rutrum nisl, a varius est sem a nulla. In hendrerit odio vel hendrerit placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc venenatis libero quis vestibulum vehicula. Sed condimentum, sapien at condimentum laoreet, odio enim vestibulum dui, vel auctor nulla velit quis odio. 
-                    </p>
+        <!----start header---->
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <ul class="navbar">
+                <li><a href="#home"></a>Home</li>
+                <li><a href="#about"></a>About me</li>
+                <li><a href="#services"></a>Service</li>
+                <li><a href="#portfolio"></a>Portfolio</li>
+                <li><a href="#contact"></a>Contac Me</li>
+            </ul>
+            <a href="#" class="h-btn">Let' Talk</a>
+        </header>
+
+        <!----start home---->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h4>Hi, my name is</h4>
+                <h1>Diana <span>Podkalicka</span></h1>
+                <h3>You may know me from Social Media as <span>White Angel</span></h3>
+                <h3>I'am drawing different stuff</h3>
+                <div class="newslatter">
+                    <form>
+                        <input type="email" name="email" id="mail" placeholder="Enter Your E-mail">
+                        <input type="submit" name="submit" value="Send!">
+                    </form>
                 </div>
-
-                <div class="Kontakt">
-                    <h3>Kontakty:</h3>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                    </ul> 
-                </div>
-
-                <div class="Z1">
-                    <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-                </div>
-
-                <div class="Z2">
-                    <img class="Zdjęcie" src="/images/2.png" alt="Praca numer dwa"/>
-                </div>
-        </div>
-
-        <div class="container2">            
-
-            <div>
-                O1
-                <!-- <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
             </div>
 
-            <div>
-                O2
-                <!-- <img class="Zdjęcie" src="/images/2.png" alt="Praca numer dwa"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-            </div>
+        </section>
 
-            <div>
-                O3
-                <!-- <img class="Zdjęcie" src="/images/2.png" alt="Praca numer dwa"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-            </div>
-
-            <div>
-                O4
-                <!-- <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-            </div>
-
-            <div>
-                O5
-                <!-- <img class="Zdjęcie" src="/images/2.png" alt="Praca numer dwa"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-            </div>
-
-            <div>
-                O6
-                <!-- <img class="Zdjęcie" src="/images/2.png" alt="Praca numer dwa"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-            </div>
-
-            <div>
-                O7
-                <!-- <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-            </div>
-
-            <div>
-                O8
-                <!-- <img class="Zdjęcie" src="/images/2.png" alt="Praca numer dwa"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-            </div>
-
-            <div>
-                O9
-                <!-- <img class="Zdjęcie" src="/images/2.png" alt="Praca numer dwa"/> -->
-                <img class="Zdjęcie" src="images/1.png" alt="Praca numer jeden"/>
-            </div>
-          
-        </div>
+        <!----link to js ---->
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
+
 </html>
