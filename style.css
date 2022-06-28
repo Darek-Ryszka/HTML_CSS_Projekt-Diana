@@ -154,3 +154,7 @@ header.sticky {
 .sticky .navbar a::after {
 	background: var(--text-color);
 }
+.sticky .h-btn{
+	background: var(--text-color);
+	color: #000;
+}
