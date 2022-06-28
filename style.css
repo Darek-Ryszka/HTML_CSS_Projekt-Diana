@@ -180,3 +180,11 @@ header.sticky {
 	margin-bottom: 25px;
 	letter-spacing: 2px;
 }
+.about-text p {
+	color: var(--secound-color);
+	letter-spacing: 1px;
+	line-height: 28px;
+	max-width: 590px;
+	font-size: var(--p-font);
+	margin-bottom: 45px;
+}
