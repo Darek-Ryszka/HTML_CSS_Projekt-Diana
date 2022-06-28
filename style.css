@@ -51,16 +51,15 @@ header {
 	color: var(--text-color);
 	font-weight: bold;
 	font-size: 1rem;
-	padding: 10px 20px;
+	padding: 10px 40px;
 }
 .navbar a::after {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 0;
 	height: 2px;
 	background: var(--main-color);
-	/* left: 0; */
-	left: 20px; /*Do zmiany*/
+	left: 0;
 	bottom: -4px;
 	transition: ease 0.4s;
 }
@@ -148,7 +147,10 @@ span {
 	top: 6px;
 	right: 6px;
 }
-header.sticky{
+header.sticky {
 	padding: 12px 15%;
 	background: var(--main-color);
+}
+.sticky .navbar a::after {
+	background: var(--text-color);
 }
