@@ -148,3 +148,7 @@ span {
 	top: 6px;
 	right: 6px;
 }
+header.sticky{
+	padding: 12px 15%;
+	background: var(--main-color);
+}
