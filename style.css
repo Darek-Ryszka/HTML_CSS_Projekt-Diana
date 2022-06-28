@@ -175,3 +175,8 @@ header.sticky {
 	font-size: var(--h2-font);
 	margin-bottom: 20px;
 }
+.about-text h5 {
+	font-size: 28px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
