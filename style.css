@@ -171,3 +171,7 @@ header.sticky {
 	height: auto;
 	border-radius: 10px;
 }
+.about-text h2 {
+	font-size: var(--h2-font);
+	margin-bottom: 20px;
+}
