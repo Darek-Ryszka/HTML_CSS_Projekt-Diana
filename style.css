@@ -51,10 +51,10 @@ header {
 	color: var(--text-color);
 	font-weight: bold;
 	font-size: 1rem;
-	padding: 10px 40px;
+	padding: 10px 40px; /*10px 20px*/
 }
 .navbar a::after {
-	content: '';
+	content: "";
 	position: absolute;
 	width: 0;
 	height: 2px;
@@ -154,7 +154,14 @@ header.sticky {
 .sticky .navbar a::after {
 	background: var(--text-color);
 }
-.sticky .h-btn{
+.sticky .h-btn {
 	background: var(--text-color);
 	color: #000;
+}
+.about{
+	background: var(--secound-bg-color);
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	align-items: center;
+	grid-gap: 2rem;
 }
