@@ -226,3 +226,10 @@ header.sticky {
 	align-items: center;
 	margin-top: 4.5rem;
 }
+.row {
+	background: var(--secound-bg-color);
+	padding: 55px 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all .35s;
+}
