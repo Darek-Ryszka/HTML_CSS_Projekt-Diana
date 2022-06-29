@@ -219,3 +219,10 @@ header.sticky {
 	line-height: 28px;
 	font-size: var(--p-font);
 }
+.service-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(370px,auto));
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 4.5rem;
+}
