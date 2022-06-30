@@ -51,7 +51,7 @@ header {
 	color: var(--text-color);
 	font-weight: bold;
 	font-size: 1rem;
-	padding: 10px 40px; /*10px 20px*/
+	padding: 10px 20px; /*10px 20px*/
 }
 .navbar a::after {
 	content: "";
@@ -221,7 +221,7 @@ header.sticky {
 }
 .service-content {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(370px,auto));
+	grid-template-columns: repeat(auto-fit, minmax(370px, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 4.5rem;
@@ -234,7 +234,7 @@ header.sticky {
 	padding: 55px 30px;
 	border-radius: 10px;
 	cursor: pointer;
-	transition: all .35s;
+	transition: all 0.35s;
 }
 .row i {
 	color: var(--main-color);
@@ -254,4 +254,96 @@ header.sticky {
 }
 .row:hover {
 	transform: translateY(-8px);
+}
+.portfolio {
+	background: var(--secound-bg-color);
+}
+.portfolio-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 4.5rem;
+	cursor: pointer;
+}
+.box img {
+	max-width: 100%;
+	width: 500px;
+	height: 550px;
+	/* height: auto; */
+	border-radius: 10px;
+	margin-bottom: 20px;
+	transition: all 0.3s;
+}
+.box p {
+	color: var(--secound-color);
+	font-size: var(--p-font);
+	margin-bottom: 15px;
+}
+.box h5 {
+	color: var(--text-color);
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.box img:hover {
+	transform: scale(1.1);
+}
+.contact {
+	background: var(--bg-color);
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	align-items: center;
+	grid-gap: 3rem;
+}
+.contact img {
+	max-width: 100%;
+	width: 700px;
+	height: auto;
+	border-radius: 10px;
+}
+.contact-form h2 {
+	font-size: var(--h2-font);
+	margin-bottom: 15px;
+}
+.contact-form p {
+	color: var(--secound-color);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: var(--p-font);
+	margin-bottom: 4.1rem;
+}
+.contact-form form {
+	position: relative;
+}
+.contact-form form input,
+form textarea {
+	width: 100%;
+	padding: 20px;
+	border: none;
+	outline: none;
+	background: var(--secound-bg-color);
+	color: var(--text-color);
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+	border-radius: 10px;
+}
+.contact-form textarea {
+	 resize: none;
+	 height: 200px;
+}
+.contact-form form .send {
+	display: inline-block;
+	background: var(--main-color);
+	color: var(--text-color);
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 30px;
+	width: 200px;
+	transition: ease .35s;
+	text-transform: uppercase;
+}
+.contact-form form .send:hover {
+	transform: translateY(-8px);
+	cursor: pointer;
 }
