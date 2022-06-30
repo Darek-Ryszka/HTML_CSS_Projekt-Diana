@@ -221,7 +221,7 @@ header.sticky {
 }
 .service-content {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(370px,auto));
+	grid-template-columns: repeat(auto-fit, minmax(370px, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 4.5rem;
@@ -234,7 +234,7 @@ header.sticky {
 	padding: 55px 30px;
 	border-radius: 10px;
 	cursor: pointer;
-	transition: all .35s;
+	transition: all 0.35s;
 }
 .row i {
 	color: var(--main-color);
@@ -254,4 +254,38 @@ header.sticky {
 }
 .row:hover {
 	transform: translateY(-8px);
+}
+.portfolio {
+	background: var(--secound-bg-color);
+}
+.portfolio-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 4.5rem;
+	cursor: pointer;
+}
+.box img {
+	max-width: 100%;
+	width: 500px;
+	height: 550px;
+	/* height: auto; */
+	border-radius: 10px;
+	margin-bottom: 20px;
+	transition: all 0.3s;
+}
+.box p {
+	color: var(--secound-color);
+	font-size: var(--p-font);
+	margin-bottom: 15px;
+}
+.box h5 {
+	color: var(--text-color);
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.box img:hover {
+	transform: scale(1.1);
 }
