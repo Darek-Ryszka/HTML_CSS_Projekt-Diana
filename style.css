@@ -51,7 +51,7 @@ header {
 	color: var(--text-color);
 	font-weight: bold;
 	font-size: 1rem;
-	padding: 10px 40px; /*10px 20px*/
+	padding: 10px 20px; /*10px 20px*/
 }
 .navbar a::after {
 	content: "";
