@@ -343,3 +343,7 @@ form textarea {
 	transition: ease .35s;
 	text-transform: uppercase;
 }
+.contact-form form .send:hover {
+	transform: translateY(-8px);
+	cursor: pointer;
+}
