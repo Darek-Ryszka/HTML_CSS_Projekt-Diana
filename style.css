@@ -357,3 +357,18 @@ form textarea {
 	color: var(--secound-color);
 	letter-spacing: 1px;
 }
+
+@media (max-width: 1270px) {
+	header {
+		padding: 18px 4%;
+		transition: 0.2s;
+	}
+	header.sticky {
+		padding: 10px 4%;
+		transition: 0.2s;
+	}
+	section {
+		padding: 80px 4%;
+		transition: .2s;
+	}
+}
